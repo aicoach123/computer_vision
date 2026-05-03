@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Downloaded ML models (auto-fetched at runtime by body_segmenter.py / hand_detector.py)
+models/*.tflite
+models/*.task
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
